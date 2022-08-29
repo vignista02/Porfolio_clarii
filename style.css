@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  color: #03045e;
+}
+/* Titulo en color rojo */
+h1 {
+	color: #003566;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+/* Fondo de barra de navegacion */
+.topnav {
+  overflow: hidden;
+  background-color: #042C46;
+}
+/* Texto de barra de navegacion */
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Color cuando se pasa el cursor por la barra de navegacion */
+.topnav a:hover {
+  background-color: #D7DBE9;
+  color: black;
+}
+/* Fondo del boton Inicio */
+.topnav a.active {
+  background-color: #127704;
+  color: white;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
